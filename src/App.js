@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import Menu from './components/Menu';
 import './App.css';
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>
-          <h1>Hola App</h1>
+          <h1>Hola App hay que probar</h1>
         </p>
       </header>
     </div>
