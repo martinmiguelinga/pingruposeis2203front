@@ -1,38 +1,27 @@
-.App {
-  text-align: center;
+/* Default CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: 'Anton', sans-serif;
+font-family: 'Fredoka One', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Inter', sans-serif;
+font-family: 'Merriweather', serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.contenedor-uno {
+  width: 100%;
+  height: 600px;
+  background-color: gray;
+  border-color: aqua;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contenedor-dos {
+  width: 100%;
+  height: 600px;
+  background-color: rgb(196, 107, 107);
 }
